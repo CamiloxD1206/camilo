@@ -4,3 +4,12 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+    #canvas {
+        width: 100%;
+        /* El canvas ocupará todo el ancho disponible */
+        height: auto;
+        /* La altura se ajustará automáticamente */
+    }
+}

@@ -1,6 +1,8 @@
+/* Estilos base */
+
 .cuerpaso {
     background-image: url(https://i.pinimg.com/originals/04/05/6e/04056ed655528bc080b0e11ef1f45d4b.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -56,4 +58,39 @@ main {
     margin-top: 4%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Media queries para responsividad */
+
+@media screen and (max-width: 768px) {
+    .cuerpaso {
+        background-image: url(https://w0.peakpx.com/wallpaper/101/778/HD-wallpaper-lockscreen-fall-background-for-iphone-11-iphone-13-pro-max-iphone-12-background-iphone-iphone-background-update-best-iphone-and-iphone-background-autumn-11-thumbnail.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .login {
+        width: 80%;
+        height: auto;
+        margin: 10% auto;
+        padding: 20px;
+    }
+    .usu,
+    .contra,
+    .inicio_S,
+    .boton {
+        margin-top: 5%;
+    }
+    .ingreso {
+        width: 80px;
+        height: 25px;
+    }
+    header {
+        margin-bottom: 20%;
+        text-align: center;
+        color: white;
+        font-size: large;
+        -webkit-text-stroke: 1px black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 }
