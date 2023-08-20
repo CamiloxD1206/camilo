@@ -1,6 +1,6 @@
 setTimeout(function() {
     window.location.href = "principal.html"
-}, 5000)
+}, 3000)
 var canvas = document.getElementById("canvas");
 
 canvas.width = window.innerWidth;
