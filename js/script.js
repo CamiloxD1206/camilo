@@ -1,5 +1,5 @@
 setTimeout(function() {
-    window.location.href = "index.html"
+    window.location.href = "principal.html"
 }, 5000)
 var canvas = document.getElementById("canvas");
 

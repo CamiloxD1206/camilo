@@ -6,7 +6,7 @@ function login() {
     const usu = document.querySelector('#usuario').value;
     const con = document.querySelector('#contra').value;
     if (usu === "Diana" && con === "310821") {
-        window.location.href = "indexcopy.html"
+        window.location.href = "carga.html"
     } else {
         alert('contraseña y/o usuario incorrectos')
     }
