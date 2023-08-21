@@ -87,17 +87,13 @@ h1 {
     color: white;
 }
 
-h2 {
-    color: whitef;
-}
-
 
 /* ------------------------------------------ */
 
 .modal-corazon {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     z-index: 2;
-    background-color: rgba(122, 122, 122, 0.564);
+    background-color: rgba(122, 122, 122, 0.593);
     border-radius: 10px;
     width: 500px;
     height: 640px;
@@ -109,7 +105,7 @@ h2 {
 .headermodal {
     padding-top: 3%;
     text-align: center;
-    color: #f20044;
+    color: #ffffff;
     font-size: 3rem;
 }
 
@@ -125,4 +121,39 @@ h2 {
     margin-right: 120px;
     margin-bottom: 3px;
     font-size: 3rem;
+}
+
+
+/* /-------------------- */
+
+@media (max-width: 600px) {
+    #cuerpo {
+        display: grid;
+        grid-template-rows: (2, 1fr);
+    }
+    #cuerpo {
+        background-image: url(https://i.pinimg.com/originals/8d/ae/81/8dae81b054c23d9a2b2ddbfb15385ffc.jpg);
+    }
+    .tituloss {
+        margin-left: 40%;
+        font-size: x-large;
+        grid-row: 1/2;
+    }
+    .contenedor_corazon {
+        margin-left: 40%;
+        grid-row: 2/3;
+        width: 300px;
+        height: 300px;
+    }
+    .modal-corazon {
+        margin-left: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 1100px;
+    }
+    .cuerpofondo {
+        background-image: url(https://i.pinimg.com/1200x/02/a6/20/02a620fc5b3770fd7a8a8c9700f4a2cc.jpg);
+        background-position: 50%;
+    }
 }
