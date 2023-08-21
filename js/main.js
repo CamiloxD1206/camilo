@@ -17,6 +17,8 @@ function login() {
 //-------------------------------------------------
 function corazonEncantado() {
     document.querySelector("#sw").pause();
+    const aja = document.querySelector('.cuerpa');
+    aja.classList.remove('cuerpa');
     const remover = document.querySelector('#removerlo')
     const carta = document.querySelector('.carta');
     const corazon = document.querySelector('#corazoon');

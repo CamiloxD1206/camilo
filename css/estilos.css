@@ -127,11 +127,15 @@ h1 {
 /* /-------------------- */
 
 @media (max-width: 600px) {
+    .cuerpofondo {
+        background-image: url(https://i.pinimg.com/1200x/02/a6/20/02a620fc5b3770fd7a8a8c9700f4a2cc.jpg);
+        background-position: 50%;
+    }
     #cuerpo {
         display: grid;
         grid-template-rows: (2, 1fr);
     }
-    #cuerpo {
+    .cuerpa {
         background-image: url(https://i.pinimg.com/originals/8d/ae/81/8dae81b054c23d9a2b2ddbfb15385ffc.jpg);
     }
     .tituloss {
@@ -151,9 +155,5 @@ h1 {
         margin-bottom: 20px;
         width: 300px;
         height: 1100px;
-    }
-    .cuerpofondo {
-        background-image: url(https://i.pinimg.com/1200x/02/a6/20/02a620fc5b3770fd7a8a8c9700f4a2cc.jpg);
-        background-position: 50%;
     }
 }
